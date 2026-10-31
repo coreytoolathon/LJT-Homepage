@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am a first-year Ph.D. candidate in the NLP Group at the Hong Kong University of Science and Technology (HKUST), where I work under the supervision of Professor Junxian He. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024, where I was also advised by Professor Junxian He during my undergraduate studies. My research focuses on natural language processing and machine learning.
 
 My research interests include LLM Reasoning and Reinforcement Learning, Hallucination in Vision-Language Models (VLM), and LLM Truthfulness and Interpretability.
@@ -46,7 +48,7 @@ My research interests include LLM Reasoning and Reinforcement Learning, Hallucin
 6. **Composing Parameter-Efficient Modules with Arithmetic Operations**.
    Jinghan Zhang, Shiqi Chen, *Junteng Liu*, Junxian He. NeurIPS 2023.
 
-More details about each publication can be found on the [Publications page](/publications/).
+More details about each publication can be found on the [Publications page]({{ base_path }}/publications/).
 
 ## Skills
 
