@@ -23,7 +23,7 @@ repository               : "coreytoolathon/LJT-Homepage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : # No photo is provided in the available information, so no sidebar avatar is shown
   name             : "Junteng Liu"
   pronouns         : # example: "she/her"  
   bio              : "First-year Ph.D. candidate at HKUST NLP Group"
@@ -54,6 +54,7 @@ author:
   github           : "Vicent0205"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
 
   # Social media
   artstation       : # Username
@@ -278,7 +279,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
       comment: true
   # _talks
   - scope:
@@ -327,11 +327,11 @@ whitelist:
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
 #  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
+#  - Archive page should exist at path when using Liquid method or
+#    you will get broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
